@@ -134,6 +134,18 @@ h1 {
     background-color: var(--btn-hover);
 }
 
+#disqus_container {
+    margin-top: 40px;
+    text-align: left;
+}
+
+#disqus_container hr {
+    border: 0;
+    border-top: 1px solid var(--text-color);
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+
 #theme-toggle {
     position: absolute;
     top: 20px;
