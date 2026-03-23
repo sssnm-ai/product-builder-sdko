@@ -82,14 +82,52 @@ h1 {
     background-color: var(--btn-hover);
 }
 
-#theme-toggle {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.contact-form {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.contact-form hr {
+    border: 0;
+    border-top: 1px solid var(--text-color);
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+
+.contact-form h3 {
+    margin-bottom: 15px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--container-bg);
+    color: var(--text-color);
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
     background-color: var(--btn-bg);
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 4px;
     cursor: pointer;
 }
+
+.contact-form button:hover {
+    background-color: var(--btn-hover);
+}
+
